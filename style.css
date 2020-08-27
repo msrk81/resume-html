@@ -207,18 +207,18 @@ EndFonts
 p, a {
     font-family: "iransans", sans-serif;
     line-height: 150%;
-    color: #7B7F98;
+    color: #898EA2;
 }
 
 h1, h2, h3 {
     font-family: "iransansblack", sans-serif;
     line-height: 150%;
-    color: #233E63;
+    color: #464855;
 }
 
 h4, h5, h6 {
     font-family: "iransansbold", sans-serif;
-    color: #233E63;
+    color: #464855;
 }
 
 a {
@@ -425,4 +425,315 @@ template {
 =================
 End Normalize css
 =================
+*/
+
+/*
+============
+START Header
+============
+*/
+
+nav {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+nav a {
+    padding-left: 40px;
+}
+
+nav a p {
+    font-size: 14px !important;
+}
+
+header img {
+    width: 100%;
+}
+
+header h4 {
+    font-size: 32px;
+    padding-top: 40%;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 45px;
+    color: #FECE47;
+    margin-bottom: 50px;
+}
+
+header p:last-of-type {
+    font-size: 15px;
+}
+
+.headerImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+header {
+    padding-bottom: 30%;
+}
+
+/*
+==========
+END Header
+==========
+*/
+
+/*
+==========
+Start Section1
+==========
+*/
+
+#skill {
+    padding-bottom: 10%;
+}
+
+.skillTitr h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.skillTitr hr {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: #FECE47 3px solid;
+    border-radius: 50px;
+}
+
+.skillDesc p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.skillTop {
+    margin-bottom: 50px;
+}
+
+.skillCont {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #898EA2 solid 1px;
+    padding: 30px 40px 100px 60px;
+}
+
+.skillCont h1 {
+    font-size: 60px;
+}
+
+.skillCont h4 {
+    font-size: 17px;
+}
+
+/*
+============
+END Section1
+============
+*/
+
+/*
+==============
+START Section2
+==============
+*/
+
+#why {
+    background-color: #F6F8FC;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.whycon p {
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+
+.whycon h4 {
+    font-size: 18px;
+}
+
+.whyTitr hr {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    border: #FECE47 3px solid;
+    margin-top: 0;
+    border-radius: 50px;
+}
+
+.whytitr h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+/*
+============
+END Section2
+============
+*/
+
+/*
+==============
+START Section3
+==============
+*/
+
+#sample {
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+
+.sampleTitr {
+    padding-bottom: 60px;
+}
+
+.sampleSlide img {
+
+}
+
+/*
+============
+END Section3
+============
+*/
+
+/*
+==============
+START Section4
+==============
+*/
+
+#comment {
+    padding-bottom: 100px;
+}
+
+.commentcon {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #898EA2 solid 1px;
+    padding: 40px 60px 50px 40px;
+}
+
+.commentcon h4 {
+    font-size: 18px;
+}
+
+.commentcon h5 {
+    font-size: 14px;
+}
+
+.commentcon p {
+    font-size: 15px;
+}
+
+/*
+============
+END Section4
+============
+*/
+
+/*
+==============
+START Section5
+==============
+*/
+
+.logo {
+    padding-bottom: 70px;
+}
+
+.logoImg img {
+    height: 60%;
+    text-align: center;
+}
+
+.logoImg {
+    text-align: center;
+}
+
+.logoCen {
+    justify-content: center;
+}
+
+/*
+============
+END Section5
+============
+*/
+
+/*
+==============
+START Section6
+==============
+*/
+
+.contact {
+    background-color: #FECE47;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 100px;
+}
+
+.contactTitr hr {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    border: #464855 3px solid;
+    border-radius: 50px;
+}
+
+.contactTitr h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.sampleBtn a {
+    font-size: 15px;
+    color: #Ffffff;
+    padding: 15px 60px;
+    background-color: #333333;
+    font-family: "iransansblack", sans-serif;
+}
+
+.sampleBtn {
+   text-align: left;
+}
+
+
+/*
+============
+END Section6
+============
+*/
+
+/*
+============
+START Footer
+============
+*/
+
+.footerInfo h1 {
+    font-size: 18px;
+    letter-spacing: -2px;
+}
+
+.footerInfo p {
+    font-size: 15px;
+}
+
+/*
+==========
+END Footer
+==========
 */
