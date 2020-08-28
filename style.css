@@ -595,8 +595,16 @@ START Section3
     padding-bottom: 60px;
 }
 
-.sampleSlide img {
-
+.sampleSlide a {
+    font-family: "iransansblack", sans-serif;
+    color: #Ffffff;
+    position: absolute;
+    background-color: #333333;
+    padding: 15px 30px;
+    z-index: 2;
+    right: 30%;
+    top: 35%;
+    display: none;
 }
 
 /*
@@ -707,7 +715,7 @@ START Section6
 }
 
 .sampleBtn {
-   text-align: left;
+    text-align: left;
 }
 
 
@@ -723,6 +731,10 @@ START Footer
 ============
 */
 
+footer {
+    margin-bottom: 100px;
+}
+
 .footerInfo h1 {
     font-size: 18px;
     letter-spacing: -2px;
@@ -732,8 +744,32 @@ START Footer
     font-size: 15px;
 }
 
+.footerSocial img {
+    width: 25px;
+}
+
+.footerSocial a {
+    margin-left: 60px;
+}
+
+.footerSocial {
+    float: left;
+}
+
 /*
 ==========
 END Footer
 ==========
 */
+
+.sampleSlide img, .sampleSlide a {
+    transition-duration: 0.3s;
+}
+
+.sampleSlide:hover img {
+    opacity: 0.5;
+}
+
+.sampleSlide:hover a {
+    display: inline-block;
+}
