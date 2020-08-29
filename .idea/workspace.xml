@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -42,7 +49,7 @@
       <workItem from="1598540364500" duration="15227000" />
       <workItem from="1598588051427" duration="6000" />
       <workItem from="1598588092137" duration="1805000" />
-      <workItem from="1598682296631" duration="12726000" />
+      <workItem from="1598682296631" duration="15918000" />
     </task>
     <servers />
   </component>
