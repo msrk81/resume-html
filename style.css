@@ -605,6 +605,7 @@ START Section3
     right: 30%;
     top: 35%;
     display: none;
+    animation: slide 0.5s;
 }
 
 /*
@@ -712,6 +713,7 @@ START Section6
     padding: 15px 60px;
     background-color: #333333;
     font-family: "iransansblack", sans-serif;
+    border: 2px solid #333333;
 }
 
 .sampleBtn {
@@ -762,7 +764,98 @@ END Footer
 ==========
 */
 
-.sampleSlide img, .sampleSlide a {
+/* ===Responsive=== */
+
+@media (max-width: 1200px) {
+    header h4 {
+        padding-top: 25%;
+    }
+
+    .sampleSlide a {
+        right: 25%;
+        top: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    .headerImage {
+        position: unset;
+    }
+
+    header h4 {
+        padding-top: 0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .skillCont, .commentcon {
+        margin-bottom: 30px;
+    }
+
+    .whycon:first-child {
+        margin-top: 50px;
+    }
+
+    .sampleBtn {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .footerSocial {
+        float: none;
+        text-align: center;
+    }
+
+    .footerInfo p {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sampleSlide a {
+        right: 20%;
+        top: 20%;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        display: none;
+    }
+
+    header h4 {
+        font-size: 25px;
+    }
+
+    header h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    header p:last-of-type {
+        font-size: 12px;
+    }
+
+    .sampleSlide a {
+        right: 30%;
+        top: 35%;
+    }
+
+    .contactTitr h1 {
+        font-size: 20px;
+    }
+
+    .footerSocial a {
+        margin-left: 20px;
+    }
+}
+
+/* ===Hover=== */
+
+.sampleSlide img, .sampleSlide a, nav a p, .skillCont, .commentcon, .logoImg img,
+.sampleBtn a, .footerSocial img {
     transition-duration: 0.3s;
 }
 
@@ -772,4 +865,27 @@ END Footer
 
 .sampleSlide:hover a {
     display: inline-block;
+}
+
+@keyframes slide {
+    15% {
+        top: 15%;
+    }
+}
+
+nav a p:hover {
+    color: #464855;
+}
+
+.skillCont:hover, .commentcon:hover {
+    background-color: #FECE47;
+}
+
+.logoImg img:hover, .footerSocial img:hover {
+    transform: scale(1.5);
+}
+
+.sampleBtn a:hover {
+    background-color: unset;
+    color: #333333;
 }
