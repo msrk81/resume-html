@@ -27,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/resume-html/index.html" useBuiltInWebServerPort="true">
@@ -49,7 +50,8 @@
       <workItem from="1598540364500" duration="15227000" />
       <workItem from="1598588051427" duration="6000" />
       <workItem from="1598588092137" duration="1805000" />
-      <workItem from="1598682296631" duration="16514000" />
+      <workItem from="1598682296631" duration="16894000" />
+      <workItem from="1598703619979" duration="692000" />
     </task>
     <servers />
   </component>
@@ -117,6 +119,10 @@
       <screen x="0" y="0" width="1600" height="1170" />
     </state>
     <state width="1576" height="373" key="GridCell.Tab.2.right/0.0.1600.1170@0.0.1600.1170" timestamp="1598540230445" />
+    <state x="301" y="224" key="SettingsEditor" timestamp="1598703760691">
+      <screen x="0" y="0" width="1600" height="1170" />
+    </state>
+    <state x="301" y="224" key="SettingsEditor/0.0.1600.1170@0.0.1600.1170" timestamp="1598703760691" />
     <state x="522" y="486" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598685800917">
       <screen x="0" y="0" width="1600" height="1170" />
     </state>

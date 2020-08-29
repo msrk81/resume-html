@@ -799,8 +799,8 @@ START Section6
     padding: 15px 60px;
     background-color: #333333;
     font-family: "iransansblack", sans-serif;
-    border: none;
     margin-right: 5%;
+    border: 2px solid #333333;
 }
 
 .modelTitr h1 {
@@ -904,6 +904,10 @@ END Footer
         padding-bottom: 30px;
     }
 
+    .modelForm input {
+        width: 90%;
+    }
+
     .footerSocial {
         float: none;
         text-align: center;
@@ -951,12 +955,22 @@ END Footer
     .footerSocial a {
         margin-left: 20px;
     }
+
+    .modal-content {
+        width: 90%;
+        padding: 30px 10px;
+    }
+
+    .popcon {
+        padding: 10px 20px 40px 10px;
+    }
 }
 
 /* ===Hover=== */
 
 .sampleSlide img, .sampleSlide a, nav a p, .skillCont, .commentcon, .logoImg img,
-.sampleBtn a, .footerSocial img {
+.sampleBtn a, .footerSocial img , .popcon , .modelForm textarea , .modelForm input,
+.modelForm button{
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -968,6 +982,10 @@ END Footer
 
 .sampleSlide:hover a {
     display: inline-block;
+}
+
+.modelForm input:focus  , .modelForm textarea:focus {
+    border-bottom: #FECE47 solid 1px;
 }
 
 @-webkit-keyframes slide {
@@ -986,7 +1004,7 @@ nav a p:hover {
     color: #464855;
 }
 
-.skillCont:hover, .commentcon:hover {
+.skillCont:hover, .commentcon:hover , .popcon:hover{
     background-color: #FECE47;
 }
 
@@ -996,7 +1014,7 @@ nav a p:hover {
     transform: scale(1.5);
 }
 
-.sampleBtn a:hover {
+.sampleBtn a:hover  , .modelForm button:hover{
     background-color: unset;
     color: #333333;
 }
