@@ -434,6 +434,7 @@ START Header
 */
 
 nav {
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 30px;
 }
@@ -605,6 +606,7 @@ START Section3
     right: 30%;
     top: 35%;
     display: none;
+    -webkit-animation: slide 0.5s;
     animation: slide 0.5s;
 }
 
@@ -671,6 +673,8 @@ START Section5
 }
 
 .logoCen {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -953,6 +957,8 @@ END Footer
 
 .sampleSlide img, .sampleSlide a, nav a p, .skillCont, .commentcon, .logoImg img,
 .sampleBtn a, .footerSocial img {
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -962,6 +968,12 @@ END Footer
 
 .sampleSlide:hover a {
     display: inline-block;
+}
+
+@-webkit-keyframes slide {
+    15% {
+        top: 15%;
+    }
 }
 
 @keyframes slide {
@@ -979,6 +991,8 @@ nav a p:hover {
 }
 
 .logoImg img:hover, .footerSocial img:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
     transform: scale(1.5);
 }
 
